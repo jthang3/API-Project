@@ -1,0 +1,44 @@
+html,body{
+    height:100%
+}
+table{
+    border:1px solid black;
+}
+table tr, table td{
+    border: 1px solid black;
+}
+.vertical{
+    height: 100%;
+    background: black;
+    width: 0.2%;
+}
+.container{
+    height: 100%;
+    margin:0;
+    margin-right: 0px !important;
+    padding: 0;
+}
+form{
+    width: 50%;
+    margin:auto;
+    margin-top: 40%;
+}
+.first{
+    height:100%;
+    width:100%;
+    background-image: url(./soccer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.result{
+    margin-top: 5%;
+    width: 50%;
+}
+#team{
+    padding: 2%;
+}
+.result h1{
+    width: 40%;
+    margin:auto;
+    padding-left: 50%;
+}
