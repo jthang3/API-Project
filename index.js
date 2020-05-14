@@ -2,7 +2,8 @@ const api = "https://www.thesportsdb.com/api/v1/json/1/searchteams.php";
 
 //getting elements from html
 let teamName = document.querySelector("#team");
-let result = document.querySelector(".result");
+let result = document.querySelector(".result1");
+let pic = document.querySelector(".pic");
 let btn = document.querySelector(".btn");
 
 //creating even handler
@@ -35,7 +36,7 @@ let doSomething = (jasonData)=>{
 
     //retrieving data from API.
     let imgSource = jasonData.strTeamLogo;
-    result.style.backgroundImage = `url(${ imgSource })`;
+    pic.style.backgroundImage = `url(${ imgSource })`;
     let displayTeamName = jasonData.strTeam;
     let teamCountry = jasonData.strCountry;
     let teamStatium = jasonData.strStadium;

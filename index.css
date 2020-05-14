@@ -36,7 +36,14 @@ form{
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: center;
+}
+.pic{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
     opacity: 0.5;
+    height:50vh;
 }
 #team{
     padding: 2%;
@@ -44,7 +51,5 @@ form{
 .result h1{
     width: 40%;
     margin:auto;
-}
-.result ul{
     opacity: 1;
 }
