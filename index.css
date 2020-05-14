@@ -12,7 +12,7 @@ table tr, table td{
     background: black;
     width: 0.2%;
 }
-.container{
+.con{
     height: 100%;
     margin:0;
     margin-right: 0px !important;
@@ -32,7 +32,11 @@ form{
 }
 .result{
     margin-top: 5%;
-    width: 50%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.5;
 }
 #team{
     padding: 2%;
@@ -40,5 +44,7 @@ form{
 .result h1{
     width: 40%;
     margin:auto;
-    padding-left: 50%;
+}
+.result ul{
+    opacity: 1;
 }
